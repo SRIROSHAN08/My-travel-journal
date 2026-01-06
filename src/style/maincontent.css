@@ -1,0 +1,64 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-head{
+    padding: 20px 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.maincontent{
+    display: flex;
+    gap: 20px;
+    padding: 20px 40px;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+
+.main-image-container{
+    width: 155px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+.main-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.marker-png{
+    width: 20px;
+    margin-right: 4px;
+}
+
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.entry-text{
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+a:hover{
+    color: brown;
+}
+
+article a{
+    color: red;
+}
